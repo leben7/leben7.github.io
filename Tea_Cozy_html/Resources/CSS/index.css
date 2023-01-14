@@ -1,0 +1,131 @@
+/* Universal Style */
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+/* Header */
+header {
+    position: sticky;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    flex: 0 0 auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+/* Main */
+main {
+    flex: 1 1 auto;
+    position: relative;
+    overflow-y: auto;
+}
+
+.first_section {
+    background-image: url('../Images/img-mission-background.jpg');
+    width: 1200px;
+    height: 700px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.mission {
+    flex-grow: 1;
+}
+
+.second_section {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.featured_tea {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.featured_tea h4 {
+    margin-top: 10px;
+}
+
+.third_section {
+    background-image: url('../Images/img-locations-background.jpg');
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.locations {
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 40px;
+    opacity: 1;
+    background-color: transparent;
+}
+
+.loc {
+    background-color: transparent;
+}
+
+.loc h2 {
+    background-color: inherit;
+}
+
+.downtown, .east, .oakdale {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+}
+
+/* Footer */
+footer {
+    height: 200px;
+}
+.copyright h5 {
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
